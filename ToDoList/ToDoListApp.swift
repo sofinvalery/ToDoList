@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct ToDoListApp: App {
+    @StateObject var note = Note()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

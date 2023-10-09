@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A495A7F42AD46080004E39F6 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495A7F32AD46080004E39F6 /* Note.swift */; };
+		A495A7F62AD461EC004E39F6 /* NoteSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495A7F52AD461EC004E39F6 /* NoteSection.swift */; };
 		A4F6139E2AC875A300030A60 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6139D2AC875A300030A60 /* ToDoListApp.swift */; };
 		A4F613A02AC875A300030A60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F6139F2AC875A300030A60 /* ContentView.swift */; };
 		A4F613A22AC875A700030A60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F613A12AC875A700030A60 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A495A7F32AD46080004E39F6 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		A495A7F52AD461EC004E39F6 /* NoteSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSection.swift; sourceTree = "<group>"; };
 		A4F6139A2AC875A300030A60 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4F6139D2AC875A300030A60 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		A4F6139F2AC875A300030A60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				A4F6139D2AC875A300030A60 /* ToDoListApp.swift */,
 				A4F6139F2AC875A300030A60 /* ContentView.swift */,
+				A495A7F32AD46080004E39F6 /* Note.swift */,
+				A495A7F52AD461EC004E39F6 /* NoteSection.swift */,
 				A4F613A12AC875A700030A60 /* Assets.xcassets */,
 				A4F613A32AC875A700030A60 /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				A4F613A02AC875A300030A60 /* ContentView.swift in Sources */,
 				A4F6139E2AC875A300030A60 /* ToDoListApp.swift in Sources */,
+				A495A7F42AD46080004E39F6 /* Note.swift in Sources */,
+				A495A7F62AD461EC004E39F6 /* NoteSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
