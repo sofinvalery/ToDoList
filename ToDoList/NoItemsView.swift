@@ -28,16 +28,16 @@ struct NoItemsView: View {
                             .font(.headline)
                             .frame(height: 55)
                             .frame(maxWidth: .infinity)
-                            .background(animate ? secondaryAccentColor : accentColor)
+                            .background(.blue)
                             .cornerRadius(10)
                     })
-                .padding(.horizontal, animate ? 30 : 50)
+                .padding(.horizontal, animate ? 40 : 60)
                 .shadow(
-                    color: animate ? secondaryAccentColor.opacity(0.7) : accentColor.opacity(0.7),
+                    color: .blue,
                     radius: animate ? 30 : 10,
                     x: 0,
-                    y: animate ? 50 : 30)
-                .scaleEffect(animate ? 1.1 : 1.0)
+                    y: animate ? 30 : 10)
+                .scaleEffect(animate ? 1.05 : 1.0)
                 .offset(y: animate ? -7 : 0)
             }
             .frame(maxWidth: 400)
