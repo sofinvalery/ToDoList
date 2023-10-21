@@ -10,9 +10,6 @@ import SwiftUI
 struct NoItemsView: View {
     
     @State var animate = false
-    let accentColor = Color.purple
-    let secondaryAccentColor = Color.pink
-    
     
     var body: some View {
         ScrollView {
